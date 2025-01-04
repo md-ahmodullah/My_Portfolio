@@ -1,0 +1,30 @@
+[
+  {
+    "id": "para1",
+    "title": "2019 - 2020",
+    "text": "In 2019, I found out about programming after I got into Rajshahi University. Curious, I started learning programming through a web development course from Programming Hero. I quickly picked up the basics of HTML, CSS, and Bootstrap. But when the course introduced Git and GitHub, I faced errors that felt overwhelming. The command prompt and console scared me, like facing a monster. Feeling defeated, I quit the course and shifted my focus to preparing for government jobs.",
+    "tags": [
+      "#Start_Programming",
+      "#Left_Programming",
+      "#Govt_Jobs_Preparation"
+    ]
+  },
+  {
+    "id": "para2",
+    "title": "2020 - 2022",
+    "text": "Studying for government jobs felt dull because it lacked creativity and mostly involved memorizing facts. Then the COVID-19 pandemic hit, and during the long university closure, I decided to return to IT. This time, I tried graphic design. I learned Illustrator and Photoshop and started working in the Print-On-Demand industry. I earned some money and stayed in the field for about 1.5 years. Later, I tried learning Facebook Ads, but when I couldn’t get good results, I switched to Amazon affiliate marketing. However, frequent Google updates made it hard to succeed, and as a student, I couldn’t afford to invest much.",
+    "tags": ["#Back_To_IT", "#Print_On_Demand", "#Start_Marketing"]
+  },
+  {
+    "id": "para3",
+    "title": "2022 - 2023",
+    "text": "Not giving up, I started learning Python. I practiced web scraping, SEO, and automation. I scraped data from websites and used automation to post it on my WordPress blog. Eventually, I decided to return to web development and started learning Django. I built projects like a weather app, link shortener, and blog site. Despite learning these skills, I struggled to find a job because I didn't know how to apply or where to start. Feeling lost, I rejoined the Programming Hero course. This time, I completed most of it and showcased my skills through various projects.",
+    "tags": ["#Start_Python", "#Frustration", "#Start_Frontend"]
+  },
+  {
+    "id": "para4",
+    "title": "2023 - 2024",
+    "text": "Looking back, I often think of the phrase, 'Jack of all trades, master of none.' But I'm proud of how I've developed my frontend skills with some backend knowledge. My failures have taught me important lessons and made me stronger. Now, I see errors as small challenges, not scary monsters. Every day, I face many errors, but I don't give up. Some even make me smile. In my free time, I enjoy reading self-help and religious books from my personal library. I love exploring new places and meeting new people. I also enjoy attending sessions on productivity and leadership, networking with others, and biking. Spending time with friends, family, and tech enthusiasts makes me happy, and I love sharing my thoughts with those close to me.",
+    "tags": ["#Learn_From_Life", "#Completed", "#Error_Handling_Fun"]
+  }
+]

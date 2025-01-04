@@ -3,7 +3,7 @@ import resume from "../assets/documents/Email Writting.pdf";
 import myImage from "../assets/images/heroImage.png";
 export default function Hero() {
   return (
-    <section className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 py-10">
+    <section className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 py-14 lg:py-0">
       <div className="flex flex-col items-center justify-center">
         <div className="space-y-8">
           <div className="space-y-4">
