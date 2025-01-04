@@ -1,3 +1,5 @@
+import resume from "../assets/documents/Email Writting.pdf";
+import logo from "../assets/logo.png";
 export default function Navbar() {
   const links = (
     <>
@@ -46,14 +48,18 @@ export default function Navbar() {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Logo</a>
+          <a href="/">
+            <img src={logo} alt="Logo" className="h-10 w-16" />
+          </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex border border-blue-500 shadow-sm shadow-blue-400 rounded-full">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-orange-500 text-white font-semibold font-poppins">
-            Download Resume
+          <a href={resume} download>
+            <button className="btn bg-orange-500 text-white font-semibold font-poppins">
+              Download Resume
+            </button>
           </a>
         </div>
       </div>
