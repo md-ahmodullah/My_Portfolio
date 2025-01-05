@@ -18,7 +18,7 @@ export default function About() {
     }));
   };
   return (
-    <section className="bg-base-200 my-10 py-12 space-y-12">
+    <section className="bg-base-200 my-10 py-16 space-y-12">
       <h1 className="text-4xl text-center font-bold text-blue-400">About Me</h1>
       <div className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {contents.map((content) => (

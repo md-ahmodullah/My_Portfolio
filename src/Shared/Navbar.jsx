@@ -52,7 +52,7 @@ export default function Navbar() {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex border border-blue-500 shadow-sm shadow-blue-400 rounded-full fixed top-4 left-1/2 transform -translate-x-1/2 z-10 bg-base-100">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <ul className="menu menu-horizontal px-1 text-gray-300">{links}</ul>
       </div>
       <div className="navbar-end">
         <a href={resume} download>
