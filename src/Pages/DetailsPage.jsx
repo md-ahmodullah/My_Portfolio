@@ -44,7 +44,7 @@ export default function DetailsPage() {
           <div className="flex items-center gap-2">
             <BiGitRepoForked className="text-xl text-blue-400" />
             <a
-              href="https://github.com/md-ahmodullah/HopeHive"
+              href={details.githubURL}
               target="_blank"
               className="text-base md:text-lg text-blue-400"
             >
