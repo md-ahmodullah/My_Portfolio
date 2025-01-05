@@ -34,7 +34,7 @@ export default function DetailsPage() {
           <div className="flex items-center gap-2">
             <FiExternalLink className="text-xl text-blue-400" />
             <a
-              href="https://hope-hive.netlify.app/"
+              href={details.liveURL}
               target="_blank"
               className="text-base md:text-lg text-blue-400"
             >

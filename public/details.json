@@ -19,6 +19,7 @@
     ],
     "briefDescription": "WinterAid is a web application designed to connect donors with volunteers to help vulnerable communities in Bangladesh by donating winter clothing.",
     "liveLink": "WinterAid",
+    "liveURL": "https://winteraid.netlify.app/",
     "githubLink": "GitHub Repository Link",
     "details": "WinterAid enables users to browse donation campaigns, learn about ongoing initiatives, and contribute easily to make a difference. It features user authentication, responsive design, and dynamic campaigns categorized by divisions.",
     "challenges": [
@@ -54,6 +55,7 @@
     ],
     "briefDescription": "EduLink is a web application designed to enhance group study experiences among friends, allowing collaborative assignment management.",
     "liveLink": "EduLink",
+    "liveURL": "https://edulink-f2125.web.app/",
     "githubLink": "GitHub Repository Link",
     "details": "EduLink allows users to create, attempt, and grade assignments collaboratively. Features include secure authentication, light/dark mode toggle, and dynamic assignment pages.",
     "challenges": [
@@ -88,6 +90,7 @@
     ],
     "briefDescription": "Hope Hive is a feature-rich platform showcasing modern web development techniques to deliver a seamless user experience.",
     "liveLink": "Hope Hive",
+    "liveURL": "https://hope-hive.netlify.app/",
     "githubLink": "GitHub Repository Link",
     "details": "Hope Hive offers secure authentication, campaign filtering, sorting, dynamic routing, and dark/light theme toggling. It ensures optimized performance with responsive design and interactive features.",
     "challenges": [
