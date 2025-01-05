@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
+import DetailsPage from "../Pages/DetailsPage";
 import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
 
@@ -14,5 +15,9 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
     ],
+  },
+  {
+    path: "/projects/details/:id",
+    element: <DetailsPage />,
   },
 ]);

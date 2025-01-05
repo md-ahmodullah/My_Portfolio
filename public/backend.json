@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "technology_name": "Node.js",
+    "value": 50,
+    "image_link": "https://i.ibb.co.com/MZ6C1NF/nodejs.png"
+  },
+  {
+    "id": 2,
+    "technology_name": "Express.js",
+    "value": 60,
+    "image_link": "https://i.ibb.co.com/0QrLrkD/express.png"
+  },
+  {
+    "id": 3,
+    "technology_name": "MongoDB",
+    "value": 40,
+    "image_link": "https://i.ibb.co.com/hFwvY4C/mongodb.png"
+  },
+  {
+    "id": 4,
+    "technology_name": "Python",
+    "value": 65,
+    "image_link": "https://i.ibb.co.com/mJ4KLvh/python.png"
+  }
+]

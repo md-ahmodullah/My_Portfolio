@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "technology_name": "Figma",
+    "value": 50,
+    "image_link": "https://i.ibb.co/WV3fsKs/Figma-01.png"
+  },
+  {
+    "id": 2,
+    "technology_name": "Firebase",
+    "value": 70,
+    "image_link": "https://i.ibb.co/HznGNLg/firebase.png"
+  },
+  {
+    "id": 3,
+    "technology_name": "Vite",
+    "value": 40,
+    "image_link": "https://i.ibb.co/wYjG08w/vite.png"
+  },
+  {
+    "id": 4,
+    "technology_name": "VSCode",
+    "value": 75,
+    "image_link": "https://i.ibb.co/JnmTNHH/vscode.png"
+  },
+  {
+    "id": 5,
+    "technology_name": "Vercel",
+    "value": 50,
+    "image_link": "https://i.ibb.co/LCM40fq/vercel.png"
+  }
+]
