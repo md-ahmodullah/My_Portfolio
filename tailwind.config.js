@@ -10,7 +10,7 @@ export default {
       keyframes: {
         verticalMarquee: {
           "0%": { transform: "translateY(0%)" },
-          "100%": { transform: "translateY(-75%)" },
+          "100%": { transform: "translateY(-80%)" },
         },
       },
       animation: {

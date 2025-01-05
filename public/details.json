@@ -2,7 +2,13 @@
   {
     "id": "winteraid",
     "title": "WinterAid: A Donation Website",
-    "image": "https://i.ibb.co/xGcpMkM/winteraid.png",
+    "images": [
+      "https://i.ibb.co.com/YPhmVF6/win5.png",
+      "https://i.ibb.co.com/MGy9YTG/win4.png",
+      "https://i.ibb.co.com/synKb6S/win3.png",
+      "https://i.ibb.co.com/gdjgY77/win2.png",
+      "https://i.ibb.co.com/pw9qms0/win1.png"
+    ],
     "mainTechnologyStack": [
       "React",
       "Firebase",
@@ -30,7 +36,13 @@
   {
     "id": "edulink",
     "title": "EduLink: A Group Study Forum",
-    "image": "https://i.ibb.co/vPDvtSH/EduLink.png",
+    "images": [
+      "https://i.ibb.co.com/c6jpBbS/ed5.png",
+      "https://i.ibb.co.com/W2cd4wB/ed2.png",
+      "https://i.ibb.co.com/L07DZg4/ed3.png",
+      "https://i.ibb.co.com/rmffzGR/ed4.png",
+      "https://i.ibb.co.com/mTrwL40/ed1.png"
+    ],
     "mainTechnologyStack": [
       "React",
       "Express.js",
@@ -57,7 +69,13 @@
   {
     "id": "hopehive",
     "title": "Hope Hive: Crowdfunding Websites",
-    "image": "https://i.ibb.co/Rvpfhyz/hopehive.png",
+    "images": [
+      "https://i.ibb.co.com/0skGRqr/hope5.png",
+      "https://i.ibb.co.com/cQLkdFt/hope4.png",
+      "https://i.ibb.co.com/rxBhDWR/hope3.png",
+      "https://i.ibb.co.com/xM0HjX7/hope2.png",
+      "https://i.ibb.co.com/D5Q2t7p/hope.png"
+    ],
     "mainTechnologyStack": [
       "React.js",
       "Firebase",

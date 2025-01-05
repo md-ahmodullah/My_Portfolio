@@ -87,11 +87,9 @@ export default function DetailsPage() {
         </div>
         <div className="h-[500px] border border-blue-400 rounded-lg p-6 bg-base-300 overflow-hidden shadow-sm shadow-blue-400 relative">
           <div className="flex flex-col gap-5 animate-verticalMarquee">
-            <img src={details.image} alt="" />
-            <img src={details.image} alt="" />
-            <img src={details.image} alt="" />
-            <img src={details.image} alt="" />
-            <img src={details.image} alt="" />
+            {details.images.map((image, i) => (
+              <img key={i} src={image} alt="" />
+            ))}
           </div>
         </div>
       </div>
