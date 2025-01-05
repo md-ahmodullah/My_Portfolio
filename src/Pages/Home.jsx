@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <FrontendSkills />
-      <div className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 pb-8">
+      <div className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 pb-24">
         <BackendDatabase />
         <ToolsTech />
       </div>

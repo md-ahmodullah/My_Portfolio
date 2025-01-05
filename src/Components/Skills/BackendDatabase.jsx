@@ -11,8 +11,8 @@ export default function BackendDatabase() {
   return (
     <section className="border border-blue-400 shadow-sm shadow-blue-400 p-4 rounded-lg">
       <div className="flex items-center justify-center gap-3 pb-12">
-        <BsDatabaseFillGear className="text-4xl font-bold text-blue-400" />
-        <h1 className="text-3xl font-bold text-blue-400">
+        <BsDatabaseFillGear className="text-3xl md:text-4xl font-bold text-blue-400" />
+        <h1 className="text-xl md:text-3xl font-bold text-blue-400">
           Backend Development
         </h1>
       </div>

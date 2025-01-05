@@ -4,7 +4,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { SiGmail } from "react-icons/si";
 export default function Contact() {
   return (
-    <section className="w-10/12 mx-auto py-10 space-y-8">
+    <section id="contact" className="w-10/12 mx-auto py-10 space-y-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         <div className="text-lg space-y-3 flex justify-center">
           <div className="space-y-6">

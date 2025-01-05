@@ -45,7 +45,7 @@ export default function Hero() {
             </div>
           </div>
           <div>
-            <a href={resume} download>
+            <a href={resume} target="_blank" download>
               <button className="btn bg-orange-500 text-white font-semibold font-poppins">
                 Download Resume
               </button>

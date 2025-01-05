@@ -18,7 +18,7 @@ export default function About() {
     }));
   };
   return (
-    <section className="bg-base-200 my-10 py-16 space-y-12">
+    <section id="about" className="bg-base-200 my-10 py-16 space-y-12">
       <h1 className="text-4xl text-center font-bold text-blue-400">About Me</h1>
       <div className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {contents.map((content) => (
@@ -48,11 +48,11 @@ export default function About() {
                 See More
               </button>
             )}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 overflow-hidden">
+            <div className="flex items-center gap-3 flex-wrap">
               {content.tags.map((tag, index) => (
                 <p
                   key={index}
-                  className="px-3 py-1.5 italic text-orange-400 text-xs font-poppins"
+                  className="italic text-orange-400 text-xs font-poppins"
                 >
                   {tag}
                 </p>

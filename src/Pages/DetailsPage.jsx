@@ -12,13 +12,17 @@ export default function DetailsPage() {
   return (
     <section className="my-5 py-4 w-10/12 mx-auto">
       <div className="border-b-2 border-blue-400 pb-2">
-        <h1 className="text-2xl font-bold text-orange-400">{details.title}</h1>
+        <h1 className="text-xl md:text-2xl font-bold text-orange-400">
+          {details.title}
+        </h1>
         <p>{details.briefDescription}</p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-5">
         <div className="space-y-3">
           <p>{details.details}</p>
-          <h2 className="font-bold text-lg">Main Technology Stack</h2>
+          <h2 className="font-bold text-sm md:text-lg">
+            Main Technology Stack
+          </h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
             {details.mainTechnologyStack.map((tech, i) => (
               <div key={i} className="flex items-center gap-2">
@@ -32,7 +36,7 @@ export default function DetailsPage() {
             <a
               href="https://hope-hive.netlify.app/"
               target="_blank"
-              className="text-lg text-blue-400"
+              className="text-base md:text-lg text-blue-400"
             >
               {details.liveLink}
             </a>
@@ -42,7 +46,7 @@ export default function DetailsPage() {
             <a
               href="https://github.com/md-ahmodullah/HopeHive"
               target="_blank"
-              className="text-lg text-blue-400"
+              className="text-base md:text-lg text-blue-400"
             >
               {details.githubLink}
             </a>
@@ -50,7 +54,7 @@ export default function DetailsPage() {
           {details.challenges.map((challenge, i) => (
             <div key={i} className="flex items-center gap-2">
               <SiOpensourcehardware className="text-lg text-red-500" />
-              <p>
+              <p className="text-sm md:text-base">
                 <span className="font-bold">Challenges-{i + 1} : </span>
                 {challenge}
               </p>
@@ -62,7 +66,7 @@ export default function DetailsPage() {
                 className="text-xl text-yellow-500"
                 title="Lackings"
               />
-              <p>
+              <p className="text-sm md:text-base">
                 <span className="font-bold">Lackings-{i + 1} : </span>
                 {lacking}
               </p>
@@ -74,7 +78,7 @@ export default function DetailsPage() {
                 className="text-xl text-green-400"
                 title="Improvement"
               />
-              <p>
+              <p className="text-sm md:text-base">
                 <span className="font-bold">Improvement-{i + 1} : </span>
                 {improvement}
               </p>

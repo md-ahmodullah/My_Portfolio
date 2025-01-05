@@ -4,19 +4,19 @@ export default function Navbar() {
   const links = (
     <>
       <li>
-        <a>Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="#about">About</a>
       </li>
       <li>
-        <a>Skills</a>
+        <a href="#skills">Skills</a>
       </li>
       <li>
-        <a>Projects</a>
+        <a href="#projects">Projects</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="#contact">Contact</a>
       </li>
     </>
   );

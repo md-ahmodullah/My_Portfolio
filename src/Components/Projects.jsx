@@ -8,7 +8,7 @@ export default function Projects() {
       .then((data) => setProjects(data));
   }, []);
   return (
-    <section className="bg-base-300 my-10 py-12">
+    <section id="projects" className="bg-base-300 py-20">
       <h1 className="text-4xl text-center font-bold text-blue-400">
         My Projects
       </h1>
