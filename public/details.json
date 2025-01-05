@@ -1,0 +1,85 @@
+[
+  {
+    "id": "winteraid",
+    "title": "WinterAid: A Donation Website",
+    "image": "https://i.ibb.co/xGcpMkM/winteraid.png",
+    "mainTechnologyStack": [
+      "React",
+      "Firebase",
+      "React Router DOM",
+      "Tailwind CSS",
+      "React Icons",
+      "React Toastify"
+    ],
+    "briefDescription": "WinterAid is a web application designed to connect donors with volunteers to help vulnerable communities in Bangladesh by donating winter clothing.",
+    "liveLink": "WinterAid",
+    "githubLink": "GitHub Repository Link",
+    "details": "WinterAid enables users to browse donation campaigns, learn about ongoing initiatives, and contribute easily to make a difference. It features user authentication, responsive design, and dynamic campaigns categorized by divisions.",
+    "challenges": [
+      "Implementing division-based dynamic campaign statuses.",
+      "Ensuring mobile-first responsiveness for all features."
+    ],
+    "lackings": [
+      "Limited real-time chat system between donors and volunteers."
+    ],
+    "improvements": [
+      "Integrate a real-time messaging system.",
+      "Add payment gateway for online donations."
+    ]
+  },
+  {
+    "id": "edulink",
+    "title": "EduLink: A Group Study Forum",
+    "image": "https://i.ibb.co/vPDvtSH/EduLink.png",
+    "mainTechnologyStack": [
+      "React",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "Tailwind CSS",
+      "DaisyUI",
+      "JWT"
+    ],
+    "briefDescription": "EduLink is a web application designed to enhance group study experiences among friends, allowing collaborative assignment management.",
+    "liveLink": "EduLink",
+    "githubLink": "GitHub Repository Link",
+    "details": "EduLink allows users to create, attempt, and grade assignments collaboratively. Features include secure authentication, light/dark mode toggle, and dynamic assignment pages.",
+    "challenges": [
+      "Implementing JWT-based authentication for private routes.",
+      "Developing efficient filtering and search functionality."
+    ],
+    "lackings": ["Lack of real-time notification for assignment updates."],
+    "improvements": [
+      "Add real-time notification for assignment submissions and grading.",
+      "Include a group chat feature for better collaboration."
+    ]
+  },
+  {
+    "id": "hopehive",
+    "title": "Hope Hive: Crowdfunding Websites",
+    "image": "https://i.ibb.co/Rvpfhyz/hopehive.png",
+    "mainTechnologyStack": [
+      "React.js",
+      "Firebase",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Vercel",
+      "Netlify"
+    ],
+    "briefDescription": "Hope Hive is a feature-rich platform showcasing modern web development techniques to deliver a seamless user experience.",
+    "liveLink": "Hope Hive",
+    "githubLink": "GitHub Repository Link",
+    "details": "Hope Hive offers secure authentication, campaign filtering, sorting, dynamic routing, and dark/light theme toggling. It ensures optimized performance with responsive design and interactive features.",
+    "challenges": [
+      "Integrating campaign filtering and sorting by dynamic criteria.",
+      "Optimizing API performance with secure endpoints."
+    ],
+    "lackings": ["Limited user feedback mechanism on campaigns."],
+    "improvements": [
+      "Implement a feedback and rating system for campaigns.",
+      "Enhance campaign analytics for better insights."
+    ]
+  }
+]

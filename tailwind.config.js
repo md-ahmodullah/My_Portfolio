@@ -7,6 +7,15 @@ export default {
         poppins: ["Poppins"],
         lato: ["Lato"],
       },
+      keyframes: {
+        verticalMarquee: {
+          "0%": { transform: "translateY(0%)" },
+          "100%": { transform: "translateY(-75%)" },
+        },
+      },
+      animation: {
+        verticalMarquee: "verticalMarquee 10s linear infinite",
+      },
     },
   },
   plugins: [require("daisyui")],

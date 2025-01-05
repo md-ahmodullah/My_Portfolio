@@ -14,10 +14,11 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: "/projects/details/:id",
+        element: <DetailsPage />,
+        loader: () => fetch("/details.json"),
+      },
     ],
-  },
-  {
-    path: "/projects/details/:id",
-    element: <DetailsPage />,
   },
 ]);
