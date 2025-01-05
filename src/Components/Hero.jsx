@@ -10,7 +10,7 @@ export default function Hero() {
             <h1 className="text-3xl text-blue-400 font-semibold font-poppins">
               Frontend Developer
             </h1>
-            <p>
+            <p className="font-lato">
               Welcome to my portfolio! I am a passionate frontend developer
               specializing in React, crafting dynamic and user-friendly web
               interfaces. With additional knowledge of MongoDB, Node.js, and

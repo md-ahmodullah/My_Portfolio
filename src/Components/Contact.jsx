@@ -9,10 +9,14 @@ export default function Contact() {
         <div className="text-lg space-y-3 flex justify-center">
           <div className="space-y-6">
             <div>
-              <h1 className="text-2xl font-bold text-blue-400">Get in Touch</h1>
-              <p>An invitation to connect and communicate openly.</p>
+              <h1 className="text-2xl font-bold text-blue-400 font-poppins">
+                Get in Touch
+              </h1>
+              <p className="font-lato">
+                An invitation to connect and communicate openly.
+              </p>
             </div>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 font-lato">
               <div className="border border-blue-400 shadow-md shadow-blue-400 rounded-lg p-2">
                 <IoLocationOutline className="z-10 text-2xl text-red-400" />
               </div>
@@ -21,7 +25,7 @@ export default function Contact() {
                 <p className="text-sm">Bangladesh</p>
               </div>
             </div>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 font-lato">
               <div className="border border-blue-400 shadow-md shadow-blue-400 rounded-lg p-2">
                 <SiGmail className="text-2xl text-blue-600" />
               </div>
@@ -36,7 +40,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 font-lato">
               <div className="border border-blue-400 shadow-md shadow-blue-400 rounded-lg p-2">
                 <FaWhatsapp className="text-2xl text-green-400" />
               </div>
@@ -51,7 +55,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 font-lato">
               <div className="border border-blue-400 shadow-md shadow-blue-400 rounded-lg p-2">
                 <BiSolidContact className="text-2xl text-orange-600" />
               </div>
@@ -62,7 +66,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="space-y-5 bg-base-300 py-8 px-5 rounded-lg shadow-md">
+        <div className="space-y-5 bg-base-300 py-8 px-5 rounded-lg shadow-md font-poppins">
           <div className="text-center pb-5">
             <h1 className="text-3xl font-bold text-blue-400">Contact Me</h1>
             <p className="text-lg">

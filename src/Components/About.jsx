@@ -19,15 +19,19 @@ export default function About() {
   };
   return (
     <section id="about" className="bg-base-200 my-10 py-16 space-y-12">
-      <h1 className="text-4xl text-center font-bold text-blue-400">About Me</h1>
+      <h1 className="text-4xl text-center font-bold text-blue-400 font-poppins">
+        About Me
+      </h1>
       <div className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {contents.map((content) => (
           <div
             key={content.id}
             className="p-6 rounded-lg border border-blue-400 shadow-sm shadow-blue-400 space-y-4"
           >
-            <h1 className="text-lg font-bold text-center">{content.title}</h1>
-            <p className="text-justify">
+            <h1 className="text-lg font-bold text-center font-poppins">
+              {content.title}
+            </h1>
+            <p className="text-justify font-lato">
               {/* {showMore ? content.text : content.text.slice(0, 250) + "..."} */}
               {showMore[content.id]
                 ? content.text
@@ -36,14 +40,14 @@ export default function About() {
             {showMore[content.id] ? (
               <button
                 onClick={() => handleShowMore(content.id)}
-                className="btn btn-sm btn-outline text-blue-400 hover:bg-transparent hover:text-orange-500"
+                className="btn btn-sm btn-outline text-blue-400 hover:bg-transparent hover:text-orange-500 font-poppins"
               >
                 See Less
               </button>
             ) : (
               <button
                 onClick={() => handleShowMore(content.id)}
-                className="btn btn-sm btn-outline text-blue-400 hover:bg-transparent hover:text-orange-500"
+                className="btn btn-sm btn-outline text-blue-400 hover:bg-transparent hover:text-orange-500 font-poppins"
               >
                 See More
               </button>

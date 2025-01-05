@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 export default function ErrorPage() {
   return (
-    <section className="w-10/12 mx-auto my-12 min-h-screen flex flex-col items-center justify-center">
+    <section className="w-10/12 mx-auto my-12 min-h-screen flex flex-col items-center justify-center font-lato">
       <div className="flex flex-col items-center gap-5">
         <h1 className="text-6xl font-extrabold text-gray-200 text-center">
           An Error Occured

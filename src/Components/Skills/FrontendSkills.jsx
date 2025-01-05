@@ -10,13 +10,13 @@ export default function FrontendSkills() {
   }, []);
   return (
     <section id="skills" className="w-10/12 mx-auto py-10">
-      <h1 className="text-4xl text-center font-bold text-blue-400 pb-8">
+      <h1 className="text-4xl text-center font-bold text-blue-400 pb-8 font-poppins">
         My Skills
       </h1>
       <div className="border border-blue-400 shadow-sm shadow-blue-400 p-4 rounded-lg my-2">
         <div className="flex items-center justify-center gap-3 pb-8">
           <TbStackFront className="text-3xl md:text-4xl font-bold text-blue-400" />
-          <h1 className="text-xl md:text-3xl font-bold text-blue-400">
+          <h1 className="text-xl md:text-3xl font-bold text-blue-400 font-poppins">
             Frontend Development
           </h1>
         </div>
@@ -27,7 +27,7 @@ export default function FrontendSkills() {
                 key={skill.id}
                 className="mr-8 w-44 flex flex-col items-center gap-3 border border-blue-500 py-4 rounded-lg shadow-md shadow-blue-500"
               >
-                <p>{skill.technology_name}</p>
+                <p className="font-lato">{skill.technology_name}</p>
                 <img
                   src={skill.image_link}
                   alt={skill.technology_name}

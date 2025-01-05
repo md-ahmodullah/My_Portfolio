@@ -12,7 +12,7 @@
     "mainTechnologyStack": [
       "React",
       "Firebase",
-      "React Router DOM",
+      "React Router",
       "Tailwind CSS",
       "React Icons",
       "React Toastify"

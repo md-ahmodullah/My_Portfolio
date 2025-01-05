@@ -11,13 +11,13 @@ export default function DetailsPage() {
   const details = data.find((d) => d.id === id);
   return (
     <section className="my-5 py-4 w-10/12 mx-auto">
-      <div className="border-b-2 border-blue-400 pb-2">
+      <div className="border-b-2 border-blue-400 pb-2 font-poppins">
         <h1 className="text-xl md:text-2xl font-bold text-orange-400">
           {details.title}
         </h1>
         <p>{details.briefDescription}</p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-5 font-lato">
         <div className="space-y-3">
           <p>{details.details}</p>
           <h2 className="font-bold text-sm md:text-lg">

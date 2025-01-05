@@ -9,10 +9,10 @@ export default function Projects() {
   }, []);
   return (
     <section id="projects" className="bg-base-300 py-20">
-      <h1 className="text-4xl text-center font-bold text-blue-400">
+      <h1 className="text-4xl text-center font-bold text-blue-400 font-poppins">
         My Projects
       </h1>
-      <div className="w-10/12 mx-auto py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+      <div className="w-10/12 mx-auto py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center font-lato">
         {projects.map((project) => (
           <div
             key={project.id}
